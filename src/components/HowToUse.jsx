@@ -6,7 +6,7 @@ import SearchbarImg from '../assets/SearchbarImg.png'
 
 const HowToUse = () => {
     return (
-        <div className='How Constants'>
+        <div className='How Constants no-select'>
             <h2>How to Use <span>Pinhoader</span></h2>
             <div>
                 <div>

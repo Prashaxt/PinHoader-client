@@ -5,9 +5,11 @@ import Features from './components/Features'
 import Pricing from './components/Pricing'
 import Footer from './components/Footer'
 import { Outlet } from 'react-router-dom'
+import HowTo from './components/HowToUse'
 
 const Layout = () => {
   const homeRef = useRef(null)
+  const howtoRef = useRef(null)
   const featuresRef = useRef(null)
   const pricingRef = useRef(null)
 
@@ -21,6 +23,8 @@ const Layout = () => {
         setActiveSection('pricing')
       } else if (featuresRef.current && scrollPos >= featuresRef.current.offsetTop) {
         setActiveSection('features')
+      } else if (howtoRef.current && scrollPos >= howtoRef.current.offsetTop) {
+        setActiveSection('howto')
       } else {
         setActiveSection('home')
       }
@@ -38,7 +42,8 @@ const Layout = () => {
       {/* <Outlet /> */}
       <div ref={homeRef} id="home"><Home /></div>
       <div ref={featuresRef} id="features"><Features /></div>
-      <div ref={pricingRef} id="pricing"><Pricing /></div>
+      <div ref={howtoRef} id="howto"><HowTo /></div>
+      {/* <div ref={pricingRef} id="pricing"><Pricing /></div> */}
       <Footer />
     </>
   )

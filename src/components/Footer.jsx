@@ -19,18 +19,21 @@ const Footer = () => {
                         <h3>Product</h3>
                         <Link to="#home">Home</Link>
                         <Link to="#features">Features</Link>
-                        <Link to="#pricing">Pricing</Link>
-                        <Link to="/">FAQs</Link>
+                        <Link to="#howto">How to use</Link>
+                        <a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer">
+                            Privacy Policy
+                        </a>
+                        {/* <Link to="#pricing">Pricing</Link> */}
                     </div>
                 </div>
                 <div className='footer-right'>
                     <img src={LogoMonster} alt="" />
-                    <h3>hello@pinhoader.com</h3>
+                    <h3>hello@pinhoader</h3>
                 </div>
 
             </div>
             <div className="line"></div>
-            <div className='endingText no-select'>© PinBoarder. All right Reserved.</div>
+            <div className='endingText no-select'>© PinHoarder.</div>
         </div>
     )
 }

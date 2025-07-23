@@ -125,7 +125,7 @@ const SearchBar = () => {
     <>
       <form
         onSubmit={(e) => {
-          e.preventDefault(); // prevent default form submission behavior
+          e.preventDefault(); 
           handleSearch(inputValue);
         }}
         className="search-bar">
@@ -219,8 +219,8 @@ const SearchBar = () => {
 
                   </div>
                   <div className='modal-bottom-texts'>
-                    <p>You can download maximum of 300 pins per board in the free version.</p>
-                    <p>To download unlimited photos and videos, Upgrade Your Plan.</p>
+                    <p>You can download maximum of 300 pins per board.</p>
+                    {/* <p>To download unlimited photos and videos, Upgrade Your Plan.</p> */}
                   </div>
 
                 </ div>

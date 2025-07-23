@@ -58,7 +58,8 @@ const Header = ({ activeSection }) => {
         <div ref={menuRef} className={`nav-links ${menuOpen ? 'open' : 'close'}`}>
           <Link to="#home" className={activeSection === 'home' ? 'active' : ''} onClick={handleLinkClick}>Home</Link>
           <Link to="#features" className={activeSection === 'features' ? 'active' : ''} onClick={handleLinkClick}>Features</Link>
-          <Link to="#pricing" className={activeSection === 'pricing' ? 'active' : ''} onClick={handleLinkClick}>Pricing</Link>
+          <Link to="#howto" className={activeSection === 'howto' ? 'active' : ''} onClick={handleLinkClick}>How to Use</Link>
+          {/* <Link to="#pricing" className={activeSection === 'pricing' ? 'active' : ''} onClick={handleLinkClick}>Pricing</Link> */}
           <button className='coffee no-select'>Buy me a coffee</button>
         </div>
       </div>

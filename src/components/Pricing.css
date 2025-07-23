@@ -2,7 +2,7 @@
 .Pricing {
     height: auto;
     width: 100%;
-    /* background-color: white; */
+    background-color: var(--background-two);
 
     display: flex;
     flex-direction: column;

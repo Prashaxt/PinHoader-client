@@ -24,7 +24,7 @@ const Home = () => {
 
         <div className='Pictures-div'> <Pictures /> </div>
 
-        <div className="Vinyl fadeInUp-animation no-select">
+        <div className="Vinyl no-select">
           <img src={CdpinBaseLeft} alt="cdpin" className='Cdpinbase' />
           <img src={CdpinLeft} alt="cdpin" className='Cdpin' />
           <img src={Cd} alt="cd" className='Cd' />

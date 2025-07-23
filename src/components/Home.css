@@ -375,6 +375,7 @@ body {
     width: 100%;
     /* height: 80vh; */
     z-index: -1;
+    animation: 2s fadeInUp;
 
   }
 
@@ -463,6 +464,7 @@ body {
     width: 100%;
     /* height: 80vh; */
     z-index: -1;
+    animation: 2s fadeInUp;
 
   }
 
@@ -507,6 +509,7 @@ body {
   .Vinyl {
     position: relative;
     top: -30%;
+    animation: 2s fadeInUp;
 
   }
 }
